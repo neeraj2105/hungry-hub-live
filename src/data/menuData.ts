@@ -1,4 +1,61 @@
 
+// Import all food images
+import chickenWingsImg from '@/assets/chicken-wings.jpg';
+import mozzarellaImg from '@/assets/mozzarella-sticks.jpg';
+import nachosImg from '@/assets/loaded-nachos.jpg';
+import garlicBreadImg from '@/assets/garlic-bread.jpg';
+import onionRingsImg from '@/assets/onion-rings.jpg';
+import margheritaPizzaImg from '@/assets/margherita-pizza.jpg';
+import pepperoniPizzaImg from '@/assets/pepperoni-pizza.jpg';
+import meatLoversPizzaImg from '@/assets/meat-lovers-pizza.jpg';
+import veggiePizzaImg from '@/assets/veggie-pizza.jpg';
+import hawaiianPizzaImg from '@/assets/hawaiian-pizza.jpg';
+import cheeseburgerImg from '@/assets/cheeseburger.jpg';
+import baconBurgerImg from '@/assets/bacon-burger.jpg';
+import veggieBurgerImg from '@/assets/veggie-burger.jpg';
+import spicyChickenBurgerImg from '@/assets/spicy-chicken-burger.jpg';
+import doubleCheeseburgerImg from '@/assets/double-cheeseburger.jpg';
+import carbonaraImg from '@/assets/spaghetti-carbonara.jpg';
+import alfredoImg from '@/assets/fettuccine-alfredo.jpg';
+import arrabiataImg from '@/assets/penne-arrabbiata.jpg';
+import lasagnaImg from '@/assets/lasagna.jpg';
+import ravioliImg from '@/assets/ravioli.jpg';
+import sweetSourChickenImg from '@/assets/sweet-sour-chicken.jpg';
+import kungPaoChickenImg from '@/assets/kung-pao-chicken.jpg';
+import friedRiceImg from '@/assets/fried-rice.jpg';
+import chowMeinImg from '@/assets/chow-mein.jpg';
+import orangeChickenImg from '@/assets/orange-chicken.jpg';
+import butterChickenImg from '@/assets/butter-chicken.jpg';
+import chickenBiryaniImg from '@/assets/chicken-biryani.jpg';
+import palakPaneerImg from '@/assets/palak-paneer.jpg';
+import tikkaImg from '@/assets/chicken-tikka-masala.jpg';
+import naanImg from '@/assets/naan-bread.jpg';
+import caesarSaladImg from '@/assets/caesar-salad.jpg';
+import greekSaladImg from '@/assets/greek-salad.jpg';
+import chickenSaladImg from '@/assets/chicken-salad.jpg';
+import cobbSaladImg from '@/assets/cobb-salad.jpg';
+import capreseSaladImg from '@/assets/caprese-salad.jpg';
+import chocolateCakeImg from '@/assets/chocolate-cake.jpg';
+import cheesecakeImg from '@/assets/cheesecake.jpg';
+import tiramisuImg from '@/assets/tiramisu.jpg';
+import iceCreamImg from '@/assets/ice-cream-sundae.jpg';
+import applePieImg from '@/assets/apple-pie.jpg';
+import colaImg from '@/assets/coca-cola.jpg';
+import orangeJuiceImg from '@/assets/orange-juice.jpg';
+import icedCoffeeImg from '@/assets/iced-coffee.jpg';
+import milkshakeImg from '@/assets/milkshake.jpg';
+import lemonadeImg from '@/assets/lemonade.jpg';
+import fishChipsImg from '@/assets/fish-and-chips.jpg';
+import salmonImg from '@/assets/grilled-salmon.jpg';
+import steakImg from '@/assets/steak.jpg';
+import curryImg from '@/assets/chicken-curry.jpg';
+import padThaiImg from '@/assets/pad-thai.jpg';
+import tacosImg from '@/assets/beef-tacos.jpg';
+import quesadillaImg from '@/assets/chicken-quesadilla.jpg';
+import sushiImg from '@/assets/sushi-roll.jpg';
+import ramenImg from '@/assets/ramen.jpg';
+import clubSandwichImg from '@/assets/club-sandwich.jpg';
+
 export interface FoodItem {
   id: string;
   name: string;
@@ -38,7 +95,7 @@ export const foodItems: FoodItem[] = [
     name: 'Crispy Chicken Wings',
     price: 12.99,
     description: 'Spicy buffalo wings served with ranch dressing',
-    image: '/placeholder.svg',
+    image: chickenWingsImg,
     category: 'Appetizers',
     rating: 4.5,
     preparationTime: '15-20 min',
@@ -51,7 +108,7 @@ export const foodItems: FoodItem[] = [
     name: 'Mozzarella Sticks',
     price: 8.99,
     description: 'Golden fried mozzarella with marinara sauce',
-    image: '/placeholder.svg',
+    image: mozzarellaImg,
     category: 'Appetizers',
     rating: 4.2,
     preparationTime: '10-15 min',
@@ -64,7 +121,7 @@ export const foodItems: FoodItem[] = [
     name: 'Loaded Nachos',
     price: 10.99,
     description: 'Tortilla chips with cheese, jalapeños, and sour cream',
-    image: '/placeholder.svg',
+    image: nachosImg,
     category: 'Appetizers',
     rating: 4.3,
     preparationTime: '12-18 min',
@@ -77,7 +134,7 @@ export const foodItems: FoodItem[] = [
     name: 'Garlic Bread',
     price: 6.99,
     description: 'Toasted bread with garlic butter and herbs',
-    image: '/placeholder.svg',
+    image: garlicBreadImg,
     category: 'Appetizers',
     rating: 4.1,
     preparationTime: '8-12 min',
@@ -90,7 +147,7 @@ export const foodItems: FoodItem[] = [
     name: 'Onion Rings',
     price: 7.99,
     description: 'Crispy beer-battered onion rings',
-    image: '/placeholder.svg',
+    image: onionRingsImg,
     category: 'Appetizers',
     rating: 4.0,
     preparationTime: '10-15 min',
@@ -105,7 +162,7 @@ export const foodItems: FoodItem[] = [
     name: 'Margherita Pizza',
     price: 18.99,
     description: 'Classic pizza with tomato sauce, mozzarella, and basil',
-    image: '/placeholder.svg',
+    image: margheritaPizzaImg,
     category: 'Pizza',
     rating: 4.6,
     preparationTime: '20-25 min',
@@ -118,7 +175,7 @@ export const foodItems: FoodItem[] = [
     name: 'Pepperoni Pizza',
     price: 21.99,
     description: 'Traditional pepperoni with mozzarella cheese',
-    image: '/placeholder.svg',
+    image: pepperoniPizzaImg,
     category: 'Pizza',
     rating: 4.7,
     preparationTime: '20-25 min',
@@ -131,7 +188,7 @@ export const foodItems: FoodItem[] = [
     name: 'Meat Lovers Pizza',
     price: 24.99,
     description: 'Loaded with pepperoni, sausage, ham, and bacon',
-    image: '/placeholder.svg',
+    image: meatLoversPizzaImg,
     category: 'Pizza',
     rating: 4.8,
     preparationTime: '25-30 min',
@@ -144,7 +201,7 @@ export const foodItems: FoodItem[] = [
     name: 'Veggie Supreme Pizza',
     price: 22.99,
     description: 'Bell peppers, mushrooms, onions, and olives',
-    image: '/placeholder.svg',
+    image: veggiePizzaImg,
     category: 'Pizza',
     rating: 4.4,
     preparationTime: '20-25 min',
@@ -157,7 +214,7 @@ export const foodItems: FoodItem[] = [
     name: 'Hawaiian Pizza',
     price: 20.99,
     description: 'Ham and pineapple with mozzarella',
-    image: '/placeholder.svg',
+    image: hawaiianPizzaImg,
     category: 'Pizza',
     rating: 4.2,
     preparationTime: '20-25 min',
@@ -172,7 +229,7 @@ export const foodItems: FoodItem[] = [
     name: 'Classic Cheeseburger',
     price: 14.99,
     description: 'Beef patty with cheese, lettuce, tomato, and pickles',
-    image: '/placeholder.svg',
+    image: cheeseburgerImg,
     category: 'Burgers',
     rating: 4.5,
     preparationTime: '15-20 min',
@@ -185,7 +242,7 @@ export const foodItems: FoodItem[] = [
     name: 'Bacon Burger',
     price: 16.99,
     description: 'Juicy beef patty with crispy bacon and cheese',
-    image: '/placeholder.svg',
+    image: baconBurgerImg,
     category: 'Burgers',
     rating: 4.6,
     preparationTime: '15-20 min',
@@ -198,7 +255,7 @@ export const foodItems: FoodItem[] = [
     name: 'Veggie Burger',
     price: 13.99,
     description: 'Plant-based patty with fresh vegetables',
-    image: '/placeholder.svg',
+    image: veggieBurgerImg,
     category: 'Burgers',
     rating: 4.3,
     preparationTime: '15-20 min',
@@ -211,7 +268,7 @@ export const foodItems: FoodItem[] = [
     name: 'Spicy Chicken Burger',
     price: 15.99,
     description: 'Grilled chicken with spicy sauce and jalapeños',
-    image: '/placeholder.svg',
+    image: spicyChickenBurgerImg,
     category: 'Burgers',
     rating: 4.4,
     preparationTime: '15-20 min',
@@ -224,7 +281,7 @@ export const foodItems: FoodItem[] = [
     name: 'Double Cheese Burger',
     price: 18.99,
     description: 'Two beef patties with double cheese',
-    image: '/placeholder.svg',
+    image: doubleCheeseburgerImg,
     category: 'Burgers',
     rating: 4.7,
     preparationTime: '18-22 min',
@@ -239,7 +296,7 @@ export const foodItems: FoodItem[] = [
     name: 'Spaghetti Carbonara',
     price: 16.99,
     description: 'Classic Italian pasta with eggs, cheese, and bacon',
-    image: '/placeholder.svg',
+    image: carbonaraImg,
     category: 'Pasta',
     rating: 4.5,
     preparationTime: '18-22 min',
@@ -252,7 +309,7 @@ export const foodItems: FoodItem[] = [
     name: 'Fettuccine Alfredo',
     price: 15.99,
     description: 'Creamy white sauce with fettuccine pasta',
-    image: '/placeholder.svg',
+    image: alfredoImg,
     category: 'Pasta',
     rating: 4.4,
     preparationTime: '15-20 min',
@@ -265,7 +322,7 @@ export const foodItems: FoodItem[] = [
     name: 'Penne Arrabbiata',
     price: 14.99,
     description: 'Spicy tomato sauce with penne pasta',
-    image: '/placeholder.svg',
+    image: arrabiataImg,
     category: 'Pasta',
     rating: 4.3,
     preparationTime: '15-20 min',
@@ -278,7 +335,7 @@ export const foodItems: FoodItem[] = [
     name: 'Lasagna',
     price: 19.99,
     description: 'Layered pasta with meat sauce and cheese',
-    image: '/placeholder.svg',
+    image: lasagnaImg,
     category: 'Pasta',
     rating: 4.6,
     preparationTime: '25-30 min',
@@ -291,7 +348,7 @@ export const foodItems: FoodItem[] = [
     name: 'Ravioli',
     price: 17.99,
     description: 'Cheese-filled pasta with marinara sauce',
-    image: '/placeholder.svg',
+    image: ravioliImg,
     category: 'Pasta',
     rating: 4.4,
     preparationTime: '18-22 min',
@@ -306,7 +363,7 @@ export const foodItems: FoodItem[] = [
     name: 'Sweet and Sour Chicken',
     price: 16.99,
     description: 'Battered chicken with sweet and sour sauce',
-    image: '/placeholder.svg',
+    image: sweetSourChickenImg,
     category: 'Chinese',
     rating: 4.4,
     preparationTime: '20-25 min',
@@ -319,7 +376,7 @@ export const foodItems: FoodItem[] = [
     name: 'Kung Pao Chicken',
     price: 17.99,
     description: 'Spicy chicken with peanuts and vegetables',
-    image: '/placeholder.svg',
+    image: kungPaoChickenImg,
     category: 'Chinese',
     rating: 4.5,
     preparationTime: '18-22 min',
@@ -332,7 +389,7 @@ export const foodItems: FoodItem[] = [
     name: 'Fried Rice',
     price: 12.99,
     description: 'Wok-fried rice with vegetables and egg',
-    image: '/placeholder.svg',
+    image: friedRiceImg,
     category: 'Chinese',
     rating: 4.2,
     preparationTime: '15-20 min',
@@ -345,7 +402,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chow Mein',
     price: 14.99,
     description: 'Stir-fried noodles with vegetables',
-    image: '/placeholder.svg',
+    image: chowMeinImg,
     category: 'Chinese',
     rating: 4.3,
     preparationTime: '15-20 min',
@@ -358,7 +415,7 @@ export const foodItems: FoodItem[] = [
     name: 'Orange Chicken',
     price: 18.99,
     description: 'Crispy chicken with orange glaze',
-    image: '/placeholder.svg',
+    image: orangeChickenImg,
     category: 'Chinese',
     rating: 4.6,
     preparationTime: '20-25 min',
@@ -373,7 +430,7 @@ export const foodItems: FoodItem[] = [
     name: 'Butter Chicken',
     price: 18.99,
     description: 'Creamy tomato-based curry with tender chicken',
-    image: '/placeholder.svg',
+    image: butterChickenImg,
     category: 'Indian',
     rating: 4.7,
     preparationTime: '25-30 min',
@@ -386,7 +443,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chicken Biryani',
     price: 19.99,
     description: 'Fragrant rice with spiced chicken',
-    image: '/placeholder.svg',
+    image: chickenBiryaniImg,
     category: 'Indian',
     rating: 4.8,
     preparationTime: '30-35 min',
@@ -399,7 +456,7 @@ export const foodItems: FoodItem[] = [
     name: 'Palak Paneer',
     price: 16.99,
     description: 'Spinach curry with cottage cheese',
-    image: '/placeholder.svg',
+    image: palakPaneerImg,
     category: 'Indian',
     rating: 4.5,
     preparationTime: '20-25 min',
@@ -412,7 +469,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chicken Tikka Masala',
     price: 19.99,
     description: 'Grilled chicken in creamy tomato sauce',
-    image: '/placeholder.svg',
+    image: tikkaImg,
     category: 'Indian',
     rating: 4.6,
     preparationTime: '25-30 min',
@@ -425,7 +482,7 @@ export const foodItems: FoodItem[] = [
     name: 'Naan Bread',
     price: 4.99,
     description: 'Traditional Indian flatbread',
-    image: '/placeholder.svg',
+    image: naanImg,
     category: 'Indian',
     rating: 4.3,
     preparationTime: '10-15 min',
@@ -440,7 +497,7 @@ export const foodItems: FoodItem[] = [
     name: 'Caesar Salad',
     price: 12.99,
     description: 'Crisp romaine lettuce with Caesar dressing',
-    image: '/placeholder.svg',
+    image: caesarSaladImg,
     category: 'Salads',
     rating: 4.3,
     preparationTime: '10-15 min',
@@ -453,7 +510,7 @@ export const foodItems: FoodItem[] = [
     name: 'Greek Salad',
     price: 13.99,
     description: 'Fresh vegetables with feta cheese and olives',
-    image: '/placeholder.svg',
+    image: greekSaladImg,
     category: 'Salads',
     rating: 4.4,
     preparationTime: '10-15 min',
@@ -466,7 +523,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chicken Salad',
     price: 15.99,
     description: 'Grilled chicken with mixed greens',
-    image: '/placeholder.svg',
+    image: chickenSaladImg,
     category: 'Salads',
     rating: 4.5,
     preparationTime: '15-20 min',
@@ -479,7 +536,7 @@ export const foodItems: FoodItem[] = [
     name: 'Cobb Salad',
     price: 16.99,
     description: 'Mixed greens with bacon, egg, and blue cheese',
-    image: '/placeholder.svg',
+    image: cobbSaladImg,
     category: 'Salads',
     rating: 4.4,
     preparationTime: '15-20 min',
@@ -492,7 +549,7 @@ export const foodItems: FoodItem[] = [
     name: 'Caprese Salad',
     price: 14.99,
     description: 'Fresh mozzarella, tomatoes, and basil',
-    image: '/placeholder.svg',
+    image: capreseSaladImg,
     category: 'Salads',
     rating: 4.2,
     preparationTime: '10-15 min',
@@ -507,7 +564,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chocolate Cake',
     price: 8.99,
     description: 'Rich chocolate cake with chocolate frosting',
-    image: '/placeholder.svg',
+    image: chocolateCakeImg,
     category: 'Desserts',
     rating: 4.6,
     preparationTime: '5-10 min',
@@ -520,7 +577,7 @@ export const foodItems: FoodItem[] = [
     name: 'Cheesecake',
     price: 9.99,
     description: 'Creamy New York style cheesecake',
-    image: '/placeholder.svg',
+    image: cheesecakeImg,
     category: 'Desserts',
     rating: 4.7,
     preparationTime: '5-10 min',
@@ -533,7 +590,7 @@ export const foodItems: FoodItem[] = [
     name: 'Tiramisu',
     price: 10.99,
     description: 'Italian coffee-flavored dessert',
-    image: '/placeholder.svg',
+    image: tiramisuImg,
     category: 'Desserts',
     rating: 4.5,
     preparationTime: '5-10 min',
@@ -546,7 +603,7 @@ export const foodItems: FoodItem[] = [
     name: 'Ice Cream Sundae',
     price: 7.99,
     description: 'Vanilla ice cream with toppings',
-    image: '/placeholder.svg',
+    image: iceCreamImg,
     category: 'Desserts',
     rating: 4.3,
     preparationTime: '5-10 min',
@@ -559,7 +616,7 @@ export const foodItems: FoodItem[] = [
     name: 'Apple Pie',
     price: 8.99,
     description: 'Classic apple pie with cinnamon',
-    image: '/placeholder.svg',
+    image: applePieImg,
     category: 'Desserts',
     rating: 4.4,
     preparationTime: '5-10 min',
@@ -574,7 +631,7 @@ export const foodItems: FoodItem[] = [
     name: 'Coca Cola',
     price: 2.99,
     description: 'Classic cola soft drink',
-    image: '/placeholder.svg',
+    image: colaImg,
     category: 'Beverages',
     rating: 4.0,
     preparationTime: '2-5 min',
@@ -587,7 +644,7 @@ export const foodItems: FoodItem[] = [
     name: 'Fresh Orange Juice',
     price: 4.99,
     description: 'Freshly squeezed orange juice',
-    image: '/placeholder.svg',
+    image: orangeJuiceImg,
     category: 'Beverages',
     rating: 4.5,
     preparationTime: '2-5 min',
@@ -600,7 +657,7 @@ export const foodItems: FoodItem[] = [
     name: 'Iced Coffee',
     price: 3.99,
     description: 'Cold brew coffee with ice',
-    image: '/placeholder.svg',
+    image: icedCoffeeImg,
     category: 'Beverages',
     rating: 4.3,
     preparationTime: '2-5 min',
@@ -613,7 +670,7 @@ export const foodItems: FoodItem[] = [
     name: 'Milkshake',
     price: 5.99,
     description: 'Creamy vanilla milkshake',
-    image: '/placeholder.svg',
+    image: milkshakeImg,
     category: 'Beverages',
     rating: 4.4,
     preparationTime: '5-10 min',
@@ -626,7 +683,7 @@ export const foodItems: FoodItem[] = [
     name: 'Lemonade',
     price: 3.99,
     description: 'Fresh lemonade with mint',
-    image: '/placeholder.svg',
+    image: lemonadeImg,
     category: 'Beverages',
     rating: 4.2,
     preparationTime: '2-5 min',
@@ -641,7 +698,7 @@ export const foodItems: FoodItem[] = [
     name: 'Fish and Chips',
     price: 17.99,
     description: 'Battered fish with crispy fries',
-    image: '/placeholder.svg',
+    image: fishChipsImg,
     category: 'Main Course',
     rating: 4.4,
     preparationTime: '20-25 min',
@@ -654,7 +711,7 @@ export const foodItems: FoodItem[] = [
     name: 'Grilled Salmon',
     price: 22.99,
     description: 'Fresh salmon with lemon and herbs',
-    image: '/placeholder.svg',
+    image: salmonImg,
     category: 'Main Course',
     rating: 4.6,
     preparationTime: '18-22 min',
@@ -667,7 +724,7 @@ export const foodItems: FoodItem[] = [
     name: 'Steak',
     price: 28.99,
     description: 'Grilled ribeye steak with seasoning',
-    image: '/placeholder.svg',
+    image: steakImg,
     category: 'Main Course',
     rating: 4.8,
     preparationTime: '25-30 min',
@@ -680,7 +737,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chicken Curry',
     price: 16.99,
     description: 'Spicy chicken curry with rice',
-    image: '/placeholder.svg',
+    image: curryImg,
     category: 'Main Course',
     rating: 4.5,
     preparationTime: '25-30 min',
@@ -693,7 +750,7 @@ export const foodItems: FoodItem[] = [
     name: 'Pad Thai',
     price: 15.99,
     description: 'Thai stir-fried noodles with shrimp',
-    image: '/placeholder.svg',
+    image: padThaiImg,
     category: 'Thai',
     rating: 4.4,
     preparationTime: '18-22 min',
@@ -708,7 +765,7 @@ export const foodItems: FoodItem[] = [
     name: 'Beef Tacos',
     price: 13.99,
     description: 'Soft tacos with seasoned beef',
-    image: '/placeholder.svg',
+    image: tacosImg,
     category: 'Mexican',
     rating: 4.3,
     preparationTime: '15-20 min',
@@ -721,7 +778,7 @@ export const foodItems: FoodItem[] = [
     name: 'Chicken Quesadilla',
     price: 12.99,
     description: 'Grilled tortilla with chicken and cheese',
-    image: '/placeholder.svg',
+    image: quesadillaImg,
     category: 'Mexican',
     rating: 4.4,
     preparationTime: '15-20 min',
@@ -734,7 +791,7 @@ export const foodItems: FoodItem[] = [
     name: 'Sushi Roll',
     price: 14.99,
     description: 'Fresh sushi roll with salmon',
-    image: '/placeholder.svg',
+    image: sushiImg,
     category: 'Japanese',
     rating: 4.5,
     preparationTime: '15-20 min',
@@ -747,7 +804,7 @@ export const foodItems: FoodItem[] = [
     name: 'Ramen',
     price: 16.99,
     description: 'Japanese noodle soup with pork',
-    image: '/placeholder.svg',
+    image: ramenImg,
     category: 'Japanese',
     rating: 4.6,
     preparationTime: '20-25 min',
@@ -760,7 +817,7 @@ export const foodItems: FoodItem[] = [
     name: 'Club Sandwich',
     price: 11.99,
     description: 'Triple-decker sandwich with turkey and bacon',
-    image: '/placeholder.svg',
+    image: clubSandwichImg,
     category: 'Main Course',
     rating: 4.2,
     preparationTime: '10-15 min',
@@ -781,7 +838,7 @@ for (let i = 56; i <= 200; i++) {
     name: `Delicious ${category} Item ${i}`,
     price: Math.floor(Math.random() * 25) + 5,
     description: `A wonderful ${category.toLowerCase()} dish that will satisfy your cravings`,
-    image: '/placeholder.svg',
+    image: chickenWingsImg, // Using default image for generated items
     category: category,
     rating: Math.floor(Math.random() * 10) / 2 + 3.5,
     preparationTime: `${Math.floor(Math.random() * 20) + 10}-${Math.floor(Math.random() * 20) + 25} min`,
