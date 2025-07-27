@@ -31,8 +31,8 @@ const Checkout = () => {
 
   const [isProcessing, setIsProcessing] = useState(false);
 
-  const deliveryFee = 3.99;
-  const tax = total * 0.08;
+  const deliveryFee = 319;
+  const tax = Math.round(total * 0.08);
   const finalTotal = total + deliveryFee + tax;
 
   const handlePlaceOrder = async () => {
@@ -221,7 +221,7 @@ const Checkout = () => {
                   <div className="flex-1">
                     <span className="font-medium">{item.quantity}x {item.name}</span>
                   </div>
-                  <span>${(item.price * item.quantity).toFixed(2)}</span>
+                  <span>₹{item.price * item.quantity}</span>
                 </div>
               ))}
             </div>
@@ -229,19 +229,19 @@ const Checkout = () => {
             <div className="border-t mt-4 pt-4 space-y-2">
               <div className="flex justify-between">
                 <span>Subtotal:</span>
-                <span>${total.toFixed(2)}</span>
+                <span>₹{total}</span>
               </div>
               <div className="flex justify-between">
                 <span>Delivery Fee:</span>
-                <span>${deliveryFee.toFixed(2)}</span>
+                <span>₹{deliveryFee}</span>
               </div>
               <div className="flex justify-between">
                 <span>Tax:</span>
-                <span>${tax.toFixed(2)}</span>
+                <span>₹{tax}</span>
               </div>
               <div className="flex justify-between font-bold text-lg pt-2 border-t">
                 <span>Total:</span>
-                <span className="text-primary">${finalTotal.toFixed(2)}</span>
+                <span className="text-primary">₹{finalTotal}</span>
               </div>
             </div>
           </Card>
@@ -261,7 +261,7 @@ const Checkout = () => {
             className="w-full"
             size="lg"
           >
-            {isProcessing ? 'Processing...' : `Place Order - $${finalTotal.toFixed(2)}`}
+            {isProcessing ? 'Processing...' : `Place Order - ₹${finalTotal}`}
           </Button>
         </div>
       </div>

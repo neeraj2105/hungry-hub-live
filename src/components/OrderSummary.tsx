@@ -75,7 +75,7 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({
                 <span className="font-medium">{item.quantity}x</span>
                 <span className="ml-2">{item.name}</span>
               </div>
-              <span className="font-medium">${item.price.toFixed(2)}</span>
+              <span className="font-medium">₹{item.price}</span>
             </div>
           ))}
         </div>
@@ -85,7 +85,7 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({
       <div className="border-t pt-4">
         <div className="flex justify-between items-center text-lg font-semibold">
           <span>Total</span>
-          <span className="text-primary">${total.toFixed(2)}</span>
+          <span className="text-primary">₹{total}</span>
         </div>
       </div>
 

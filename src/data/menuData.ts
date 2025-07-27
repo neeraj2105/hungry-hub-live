@@ -93,7 +93,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '1',
     name: 'Crispy Chicken Wings',
-    price: 12.99,
+    price: 1039,
     description: 'Spicy buffalo wings served with ranch dressing',
     image: chickenWingsImg,
     category: 'Appetizers',
@@ -106,7 +106,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '2',
     name: 'Mozzarella Sticks',
-    price: 8.99,
+    price: 719,
     description: 'Golden fried mozzarella with marinara sauce',
     image: mozzarellaImg,
     category: 'Appetizers',
@@ -119,7 +119,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '3',
     name: 'Loaded Nachos',
-    price: 10.99,
+    price: 879,
     description: 'Tortilla chips with cheese, jalapeños, and sour cream',
     image: nachosImg,
     category: 'Appetizers',
@@ -132,7 +132,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '4',
     name: 'Garlic Bread',
-    price: 6.99,
+    price: 559,
     description: 'Toasted bread with garlic butter and herbs',
     image: garlicBreadImg,
     category: 'Appetizers',
@@ -145,7 +145,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '5',
     name: 'Onion Rings',
-    price: 7.99,
+    price: 639,
     description: 'Crispy beer-battered onion rings',
     image: onionRingsImg,
     category: 'Appetizers',
@@ -160,7 +160,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '6',
     name: 'Margherita Pizza',
-    price: 18.99,
+    price: 1519,
     description: 'Classic pizza with tomato sauce, mozzarella, and basil',
     image: margheritaPizzaImg,
     category: 'Pizza',
@@ -173,7 +173,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '7',
     name: 'Pepperoni Pizza',
-    price: 21.99,
+    price: 1759,
     description: 'Traditional pepperoni with mozzarella cheese',
     image: pepperoniPizzaImg,
     category: 'Pizza',
@@ -184,22 +184,9 @@ export const foodItems: FoodItem[] = [
     ingredients: ['Pizza dough', 'Tomato sauce', 'Mozzarella', 'Pepperoni']
   },
   {
-    id: '8',
-    name: 'Meat Lovers Pizza',
-    price: 24.99,
-    description: 'Loaded with pepperoni, sausage, ham, and bacon',
-    image: meatLoversPizzaImg,
-    category: 'Pizza',
-    rating: 4.8,
-    preparationTime: '25-30 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Pizza dough', 'Tomato sauce', 'Mozzarella', 'Pepperoni', 'Sausage', 'Ham', 'Bacon']
-  },
-  {
     id: '9',
     name: 'Veggie Supreme Pizza',
-    price: 22.99,
+    price: 1839,
     description: 'Bell peppers, mushrooms, onions, and olives',
     image: veggiePizzaImg,
     category: 'Pizza',
@@ -212,7 +199,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '10',
     name: 'Hawaiian Pizza',
-    price: 20.99,
+    price: 1679,
     description: 'Ham and pineapple with mozzarella',
     image: hawaiianPizzaImg,
     category: 'Pizza',
@@ -225,35 +212,9 @@ export const foodItems: FoodItem[] = [
 
   // Burgers
   {
-    id: '11',
-    name: 'Classic Cheeseburger',
-    price: 14.99,
-    description: 'Beef patty with cheese, lettuce, tomato, and pickles',
-    image: cheeseburgerImg,
-    category: 'Burgers',
-    rating: 4.5,
-    preparationTime: '15-20 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Beef patty', 'Cheese', 'Lettuce', 'Tomato', 'Pickles', 'Burger bun']
-  },
-  {
-    id: '12',
-    name: 'Bacon Burger',
-    price: 16.99,
-    description: 'Juicy beef patty with crispy bacon and cheese',
-    image: baconBurgerImg,
-    category: 'Burgers',
-    rating: 4.6,
-    preparationTime: '15-20 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Beef patty', 'Bacon', 'Cheese', 'Lettuce', 'Tomato', 'Burger bun']
-  },
-  {
     id: '13',
     name: 'Veggie Burger',
-    price: 13.99,
+    price: 1119,
     description: 'Plant-based patty with fresh vegetables',
     image: veggieBurgerImg,
     category: 'Burgers',
@@ -266,7 +227,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '14',
     name: 'Spicy Chicken Burger',
-    price: 15.99,
+    price: 1279,
     description: 'Grilled chicken with spicy sauce and jalapeños',
     image: spicyChickenBurgerImg,
     category: 'Burgers',
@@ -276,38 +237,12 @@ export const foodItems: FoodItem[] = [
     isSpicy: true,
     ingredients: ['Chicken breast', 'Spicy sauce', 'Jalapeños', 'Lettuce', 'Burger bun']
   },
-  {
-    id: '15',
-    name: 'Double Cheese Burger',
-    price: 18.99,
-    description: 'Two beef patties with double cheese',
-    image: doubleCheeseburgerImg,
-    category: 'Burgers',
-    rating: 4.7,
-    preparationTime: '18-22 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Two beef patties', 'Double cheese', 'Lettuce', 'Tomato', 'Burger bun']
-  },
 
   // Pasta
   {
-    id: '16',
-    name: 'Spaghetti Carbonara',
-    price: 16.99,
-    description: 'Classic Italian pasta with eggs, cheese, and bacon',
-    image: carbonaraImg,
-    category: 'Pasta',
-    rating: 4.5,
-    preparationTime: '18-22 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Spaghetti', 'Eggs', 'Parmesan cheese', 'Bacon', 'Black pepper']
-  },
-  {
     id: '17',
     name: 'Fettuccine Alfredo',
-    price: 15.99,
+    price: 1279,
     description: 'Creamy white sauce with fettuccine pasta',
     image: alfredoImg,
     category: 'Pasta',
@@ -320,7 +255,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '18',
     name: 'Penne Arrabbiata',
-    price: 14.99,
+    price: 1199,
     description: 'Spicy tomato sauce with penne pasta',
     image: arrabiataImg,
     category: 'Pasta',
@@ -333,20 +268,20 @@ export const foodItems: FoodItem[] = [
   {
     id: '19',
     name: 'Lasagna',
-    price: 19.99,
-    description: 'Layered pasta with meat sauce and cheese',
+    price: 1599,
+    description: 'Layered pasta with tomato sauce and cheese',
     image: lasagnaImg,
     category: 'Pasta',
     rating: 4.6,
     preparationTime: '25-30 min',
-    isVegetarian: false,
+    isVegetarian: true,
     isSpicy: false,
-    ingredients: ['Lasagna sheets', 'Ground beef', 'Tomato sauce', 'Mozzarella', 'Ricotta cheese']
+    ingredients: ['Lasagna sheets', 'Tomato sauce', 'Mozzarella', 'Ricotta cheese']
   },
   {
     id: '20',
     name: 'Ravioli',
-    price: 17.99,
+    price: 1439,
     description: 'Cheese-filled pasta with marinara sauce',
     image: ravioliImg,
     category: 'Pasta',
@@ -361,7 +296,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '21',
     name: 'Sweet and Sour Chicken',
-    price: 16.99,
+    price: 1359,
     description: 'Battered chicken with sweet and sour sauce',
     image: sweetSourChickenImg,
     category: 'Chinese',
@@ -374,7 +309,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '22',
     name: 'Kung Pao Chicken',
-    price: 17.99,
+    price: 1439,
     description: 'Spicy chicken with peanuts and vegetables',
     image: kungPaoChickenImg,
     category: 'Chinese',
@@ -387,7 +322,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '23',
     name: 'Fried Rice',
-    price: 12.99,
+    price: 1039,
     description: 'Wok-fried rice with vegetables and egg',
     image: friedRiceImg,
     category: 'Chinese',
@@ -400,7 +335,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '24',
     name: 'Chow Mein',
-    price: 14.99,
+    price: 1199,
     description: 'Stir-fried noodles with vegetables',
     image: chowMeinImg,
     category: 'Chinese',
@@ -413,7 +348,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '25',
     name: 'Orange Chicken',
-    price: 18.99,
+    price: 1519,
     description: 'Crispy chicken with orange glaze',
     image: orangeChickenImg,
     category: 'Chinese',
@@ -428,7 +363,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '26',
     name: 'Butter Chicken',
-    price: 18.99,
+    price: 1519,
     description: 'Creamy tomato-based curry with tender chicken',
     image: butterChickenImg,
     category: 'Indian',
@@ -441,7 +376,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '27',
     name: 'Chicken Biryani',
-    price: 19.99,
+    price: 1599,
     description: 'Fragrant rice with spiced chicken',
     image: chickenBiryaniImg,
     category: 'Indian',
@@ -454,7 +389,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '28',
     name: 'Palak Paneer',
-    price: 16.99,
+    price: 1359,
     description: 'Spinach curry with cottage cheese',
     image: palakPaneerImg,
     category: 'Indian',
@@ -467,7 +402,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '29',
     name: 'Chicken Tikka Masala',
-    price: 19.99,
+    price: 1599,
     description: 'Grilled chicken in creamy tomato sauce',
     image: tikkaImg,
     category: 'Indian',
@@ -480,7 +415,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '30',
     name: 'Naan Bread',
-    price: 4.99,
+    price: 399,
     description: 'Traditional Indian flatbread',
     image: naanImg,
     category: 'Indian',
@@ -495,7 +430,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '31',
     name: 'Caesar Salad',
-    price: 12.99,
+    price: 1039,
     description: 'Crisp romaine lettuce with Caesar dressing',
     image: caesarSaladImg,
     category: 'Salads',
@@ -508,7 +443,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '32',
     name: 'Greek Salad',
-    price: 13.99,
+    price: 1119,
     description: 'Fresh vegetables with feta cheese and olives',
     image: greekSaladImg,
     category: 'Salads',
@@ -521,7 +456,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '33',
     name: 'Chicken Salad',
-    price: 15.99,
+    price: 1279,
     description: 'Grilled chicken with mixed greens',
     image: chickenSaladImg,
     category: 'Salads',
@@ -532,22 +467,9 @@ export const foodItems: FoodItem[] = [
     ingredients: ['Grilled chicken', 'Mixed greens', 'Tomatoes', 'Cucumber', 'Dressing']
   },
   {
-    id: '34',
-    name: 'Cobb Salad',
-    price: 16.99,
-    description: 'Mixed greens with bacon, egg, and blue cheese',
-    image: cobbSaladImg,
-    category: 'Salads',
-    rating: 4.4,
-    preparationTime: '15-20 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Mixed greens', 'Bacon', 'Hard-boiled egg', 'Blue cheese', 'Tomatoes']
-  },
-  {
     id: '35',
     name: 'Caprese Salad',
-    price: 14.99,
+    price: 1199,
     description: 'Fresh mozzarella, tomatoes, and basil',
     image: capreseSaladImg,
     category: 'Salads',
@@ -562,7 +484,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '36',
     name: 'Chocolate Cake',
-    price: 8.99,
+    price: 719,
     description: 'Rich chocolate cake with chocolate frosting',
     image: chocolateCakeImg,
     category: 'Desserts',
@@ -575,7 +497,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '37',
     name: 'Cheesecake',
-    price: 9.99,
+    price: 799,
     description: 'Creamy New York style cheesecake',
     image: cheesecakeImg,
     category: 'Desserts',
@@ -588,7 +510,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '38',
     name: 'Tiramisu',
-    price: 10.99,
+    price: 879,
     description: 'Italian coffee-flavored dessert',
     image: tiramisuImg,
     category: 'Desserts',
@@ -601,7 +523,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '39',
     name: 'Ice Cream Sundae',
-    price: 7.99,
+    price: 639,
     description: 'Vanilla ice cream with toppings',
     image: iceCreamImg,
     category: 'Desserts',
@@ -614,7 +536,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '40',
     name: 'Apple Pie',
-    price: 8.99,
+    price: 719,
     description: 'Classic apple pie with cinnamon',
     image: applePieImg,
     category: 'Desserts',
@@ -629,7 +551,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '41',
     name: 'Coca Cola',
-    price: 2.99,
+    price: 239,
     description: 'Classic cola soft drink',
     image: colaImg,
     category: 'Beverages',
@@ -642,7 +564,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '42',
     name: 'Fresh Orange Juice',
-    price: 4.99,
+    price: 399,
     description: 'Freshly squeezed orange juice',
     image: orangeJuiceImg,
     category: 'Beverages',
@@ -655,7 +577,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '43',
     name: 'Iced Coffee',
-    price: 3.99,
+    price: 319,
     description: 'Cold brew coffee with ice',
     image: icedCoffeeImg,
     category: 'Beverages',
@@ -668,7 +590,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '44',
     name: 'Milkshake',
-    price: 5.99,
+    price: 479,
     description: 'Creamy vanilla milkshake',
     image: milkshakeImg,
     category: 'Beverages',
@@ -681,7 +603,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '45',
     name: 'Lemonade',
-    price: 3.99,
+    price: 319,
     description: 'Fresh lemonade with mint',
     image: lemonadeImg,
     category: 'Beverages',
@@ -696,7 +618,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '46',
     name: 'Fish and Chips',
-    price: 17.99,
+    price: 1439,
     description: 'Battered fish with crispy fries',
     image: fishChipsImg,
     category: 'Main Course',
@@ -709,7 +631,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '47',
     name: 'Grilled Salmon',
-    price: 22.99,
+    price: 1839,
     description: 'Fresh salmon with lemon and herbs',
     image: salmonImg,
     category: 'Main Course',
@@ -720,22 +642,9 @@ export const foodItems: FoodItem[] = [
     ingredients: ['Salmon fillet', 'Lemon', 'Herbs', 'Olive oil']
   },
   {
-    id: '48',
-    name: 'Steak',
-    price: 28.99,
-    description: 'Grilled ribeye steak with seasoning',
-    image: steakImg,
-    category: 'Main Course',
-    rating: 4.8,
-    preparationTime: '25-30 min',
-    isVegetarian: false,
-    isSpicy: false,
-    ingredients: ['Ribeye steak', 'Salt', 'Pepper', 'Garlic']
-  },
-  {
     id: '49',
     name: 'Chicken Curry',
-    price: 16.99,
+    price: 1359,
     description: 'Spicy chicken curry with rice',
     image: curryImg,
     category: 'Main Course',
@@ -748,7 +657,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '50',
     name: 'Pad Thai',
-    price: 15.99,
+    price: 1279,
     description: 'Thai stir-fried noodles with shrimp',
     image: padThaiImg,
     category: 'Thai',
@@ -761,22 +670,9 @@ export const foodItems: FoodItem[] = [
   // Continue adding more items...
   // I'll add a few more to demonstrate the pattern
   {
-    id: '51',
-    name: 'Beef Tacos',
-    price: 13.99,
-    description: 'Soft tacos with seasoned beef',
-    image: tacosImg,
-    category: 'Mexican',
-    rating: 4.3,
-    preparationTime: '15-20 min',
-    isVegetarian: false,
-    isSpicy: true,
-    ingredients: ['Beef', 'Tortillas', 'Lettuce', 'Cheese', 'Salsa']
-  },
-  {
     id: '52',
     name: 'Chicken Quesadilla',
-    price: 12.99,
+    price: 1039,
     description: 'Grilled tortilla with chicken and cheese',
     image: quesadillaImg,
     category: 'Mexican',
@@ -789,7 +685,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '53',
     name: 'Sushi Roll',
-    price: 14.99,
+    price: 1199,
     description: 'Fresh sushi roll with salmon',
     image: sushiImg,
     category: 'Japanese',
@@ -802,7 +698,7 @@ export const foodItems: FoodItem[] = [
   {
     id: '54',
     name: 'Ramen',
-    price: 16.99,
+    price: 1359,
     description: 'Japanese noodle soup with pork',
     image: ramenImg,
     category: 'Japanese',
@@ -815,15 +711,15 @@ export const foodItems: FoodItem[] = [
   {
     id: '55',
     name: 'Club Sandwich',
-    price: 11.99,
-    description: 'Triple-decker sandwich with turkey and bacon',
+    price: 959,
+    description: 'Triple-decker sandwich with turkey and veggies',
     image: clubSandwichImg,
     category: 'Main Course',
     rating: 4.2,
     preparationTime: '10-15 min',
     isVegetarian: false,
     isSpicy: false,
-    ingredients: ['Bread', 'Turkey', 'Bacon', 'Lettuce', 'Tomato', 'Mayo']
+    ingredients: ['Bread', 'Turkey', 'Lettuce', 'Tomato', 'Mayo']
   }
   // Add more items to reach 200+ total items
 ];
@@ -836,7 +732,7 @@ for (let i = 56; i <= 200; i++) {
   foodItems.push({
     id: i.toString(),
     name: `Delicious ${category} Item ${i}`,
-    price: Math.floor(Math.random() * 25) + 5,
+    price: Math.floor(Math.random() * 2000) + 400,
     description: `A wonderful ${category.toLowerCase()} dish that will satisfy your cravings`,
     image: chickenWingsImg, // Using default image for generated items
     category: category,

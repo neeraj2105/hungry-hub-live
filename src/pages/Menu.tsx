@@ -179,7 +179,7 @@ const Menu = () => {
                 
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-primary">
-                    ${item.price.toFixed(2)}
+                    ₹{item.price}
                   </span>
                   
                   {cartQuantity > 0 ? (
