@@ -10,7 +10,7 @@ import { useCart } from '@/contexts/CartContext';
 const Menu = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 50]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 3000]);
   const [showVegetarianOnly, setShowVegetarianOnly] = useState(false);
   const [showSpicyOnly, setShowSpicyOnly] = useState(false);
   const [sortBy, setSortBy] = useState<'name' | 'price' | 'rating'>('name');
