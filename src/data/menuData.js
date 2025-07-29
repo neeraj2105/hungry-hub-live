@@ -1,4 +1,3 @@
-
 // Import all food images
 import chickenWingsImg from '@/assets/chicken-wings.jpg';
 import mozzarellaImg from '@/assets/mozzarella-sticks.jpg';
@@ -56,20 +55,6 @@ import sushiImg from '@/assets/sushi-roll.jpg';
 import ramenImg from '@/assets/ramen.jpg';
 import clubSandwichImg from '@/assets/club-sandwich.jpg';
 
-export interface FoodItem {
-  id: string;
-  name: string;
-  price: number;
-  description: string;
-  image: string;
-  category: string;
-  rating: number;
-  preparationTime: string;
-  isVegetarian: boolean;
-  isSpicy: boolean;
-  ingredients: string[];
-}
-
 export const categories = [
   'All',
   'Appetizers',
@@ -88,7 +73,7 @@ export const categories = [
   'Japanese'
 ];
 
-export const foodItems: FoodItem[] = [
+export const foodItems = [
   // Appetizers
   {
     id: '1',
@@ -667,8 +652,6 @@ export const foodItems: FoodItem[] = [
     isSpicy: true,
     ingredients: ['Rice noodles', 'Shrimp', 'Bean sprouts', 'Tamarind sauce']
   },
-  // Continue adding more items...
-  // I'll add a few more to demonstrate the pattern
   {
     id: '52',
     name: 'Chicken Quesadilla',
@@ -721,7 +704,6 @@ export const foodItems: FoodItem[] = [
     isSpicy: false,
     ingredients: ['Bread', 'Turkey', 'Lettuce', 'Tomato', 'Mayo']
   }
-  // Add more items to reach 200+ total items
 ];
 
 // Add more items programmatically to reach 200+

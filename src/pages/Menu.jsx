@@ -1,19 +1,18 @@
-
 import React, { useState, useMemo } from 'react';
 import { Search, Filter, Star, Clock, Leaf, Flame, ShoppingCart, Plus, Minus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
-import { foodItems, categories, FoodItem } from '@/data/menuData';
+import { foodItems, categories } from '@/data/menuData';
 import { useCart } from '@/contexts/CartContext';
 
 const Menu = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 3000]);
+  const [priceRange, setPriceRange] = useState([0, 3000]);
   const [showVegetarianOnly, setShowVegetarianOnly] = useState(false);
   const [showSpicyOnly, setShowSpicyOnly] = useState(false);
-  const [sortBy, setSortBy] = useState<'name' | 'price' | 'rating'>('name');
+  const [sortBy, setSortBy] = useState('name');
 
   const { addToCart, items: cartItems } = useCart();
 
@@ -44,12 +43,12 @@ const Menu = () => {
     return filtered;
   }, [searchTerm, selectedCategory, priceRange, showVegetarianOnly, showSpicyOnly, sortBy]);
 
-  const getCartQuantity = (itemId: string) => {
+  const getCartQuantity = (itemId) => {
     const cartItem = cartItems.find(item => item.id === itemId);
     return cartItem ? cartItem.quantity : 0;
   };
 
-  const handleAddToCart = (item: FoodItem) => {
+  const handleAddToCart = (item) => {
     addToCart({
       id: item.id,
       name: item.name,
@@ -96,7 +95,7 @@ const Menu = () => {
           {/* Sort By */}
           <select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as 'name' | 'price' | 'rating')}
+            onChange={(e) => setSortBy(e.target.value)}
             className="px-4 py-2 border rounded-md bg-background"
           >
             <option value="name">Sort by Name</option>
